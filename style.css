@@ -69,6 +69,7 @@ header h1 {
   flex: 1; /* pushes nav to the right */
   white-space: nowrap;
   padding: 0 5vw 0 0;
+  font-weight: 400;
 }
 
 nav a:not(:last-of-type) {
