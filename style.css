@@ -78,6 +78,7 @@ nav a:not(:last-of-type) {
 }
 
 footer {
+  display: block;
   position: fixed;
   bottom: 4rem;
 }
