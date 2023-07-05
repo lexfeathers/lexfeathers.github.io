@@ -82,6 +82,7 @@ footer {
   position: fixed;
   bottom: 4rem;
   width: auto;
+  background: var(--bgcolor);
 }
 
 footer a {
@@ -502,6 +503,12 @@ article time {
 @media only screen and (max-width: 680px) {
   body {
     font-size: 16px;
+  }
+
+  /* For bandcamp embeds: */
+  section p iframe {
+    max-width: 300px;
+    height: 400px !important;
   }
 }
 
