@@ -86,6 +86,10 @@ footer a {
   margin: 0 2rem 0 0;
 }
 
+footer sub {
+  justify-self: flex-end;
+}
+
 /* ------- General ------- */
 
 a {
