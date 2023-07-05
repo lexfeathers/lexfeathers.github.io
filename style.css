@@ -54,7 +54,8 @@ section#home {
 
 /* ------- Header ------- */
 
-header {
+header,
+footer {
   padding: 5vw 5vw 0 5vw;
   display: flex;
   align-items: center;
@@ -74,12 +75,6 @@ header h1 {
 
 nav a:not(:last-of-type) {
   margin-right: 1.5vw;
-}
-
-/* ------- Footer ------- */
-
-footer {
-  margin: 2rem 0;
 }
 
 /* ------- General ------- */
