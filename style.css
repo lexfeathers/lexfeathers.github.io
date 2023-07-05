@@ -52,7 +52,7 @@ section#home {
   display: block;
 }
 
-/* ------- Header ------- */
+/* ------- Header and Footer ------- */
 
 header,
 footer {
@@ -75,6 +75,10 @@ header h1 {
 
 nav a:not(:last-of-type) {
   margin-right: 1.5vw;
+}
+
+footer a {
+  margin: 0.5rem 2rem 0 0;
 }
 
 /* ------- General ------- */
