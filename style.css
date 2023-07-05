@@ -78,11 +78,13 @@ nav a:not(:last-of-type) {
 }
 
 footer {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: fixed;
   bottom: 4rem;
   width: auto;
   background: var(--bgcolor);
+  margin-top: 6rem;
 }
 
 footer p a {
