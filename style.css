@@ -76,6 +76,12 @@ nav a:not(:last-of-type) {
   margin-right: 1.5vw;
 }
 
+/* ------- Footer ------- */
+
+footer {
+  margin: 2rem 0;
+}
+
 /* ------- General ------- */
 
 a {
