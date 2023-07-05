@@ -45,6 +45,7 @@ section {
 section:target {
   /* Show section */
   display: block;
+  margin-bottom: 100px;
 }
 
 section#home {
@@ -85,7 +86,6 @@ footer {
   top: 85vh;
   width: 100%;
   background: var(--bgcolor);
-  margin-top: 6rem;
 }
 
 footer p a {
