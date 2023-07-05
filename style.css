@@ -85,12 +85,13 @@ footer {
   background: var(--bgcolor);
 }
 
-footer a {
+footer p a {
   margin: 0 1rem 0 0;
 }
 
 footer sub {
   justify-self: flex-end;
+  margin-top: 1rem;
 }
 
 /* ------- General ------- */
