@@ -81,6 +81,7 @@ footer {
   display: block;
   position: fixed;
   bottom: 4rem;
+  width: auto;
 }
 
 footer a {
