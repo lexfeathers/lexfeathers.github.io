@@ -12,8 +12,10 @@
 
 @media (prefers-color-scheme: dark) {
   * {
+    --bgcolorvalues: 20, 20, 20;
     --textcolor: #dadada;
-    --bgcolor: #141414;
+    --bgcolor: rgb(var(--bgcolorvalues));
+    --bgoverlay: rgba(var(--bgcolorvalues), 0.6);
     --highlight: #ff7ac2;
   }
 }
@@ -86,7 +88,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  background: var(--bgcolor);
+  background: var(--bgoverlay);
 }
 
 footer p a {
