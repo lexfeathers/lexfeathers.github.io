@@ -80,7 +80,7 @@ nav a:not(:last-of-type) {
 
 footer {
   padding: 0vh 5vw;
-  margin: 90vh 0;
+  margin: 90vh 0 0 0;
   z-index: 2;
   position: fixed;
   display: flex;
