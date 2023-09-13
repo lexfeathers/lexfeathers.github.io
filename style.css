@@ -15,7 +15,7 @@
     --bgcolorvalues: 20, 20, 20;
     --textcolor: #dadada;
     --bgcolor: rgb(var(--bgcolorvalues));
-    --bgoverlay: rgba(var(--bgcolorvalues), 0.6);
+    --bgoverlay: rgba(var(--bgcolorvalues), 0.7);
     --highlight: #ff7ac2;
   }
 }
