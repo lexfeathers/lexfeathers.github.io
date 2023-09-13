@@ -102,8 +102,11 @@ footer sub {
 
 footer p img {
   display: inline-flex;
-  justify-self: flex-end;
-  align-self: center;
+  vertical-align: middle;
+}
+
+footer p a img::after {
+  content: none;
 }
 
 /* ------- General ------- */
