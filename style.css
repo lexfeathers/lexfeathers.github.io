@@ -104,6 +104,10 @@ footer sub {
   margin-top: 1rem;
 }
 
+footer p:has(img) {
+  float: right;
+}
+
 footer p img {
   display: inline-flex;
   vertical-align: middle;
