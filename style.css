@@ -104,16 +104,12 @@ footer sub {
   margin-top: 1rem;
 }
 
-footer p:has(img) {
-  float: right;
-}
-
 footer p img {
   display: inline-flex;
   vertical-align: middle;
 }
 
-footer p a img::after {
+footer p a:nth-child(3)::after {
   content: none;
 }
 
