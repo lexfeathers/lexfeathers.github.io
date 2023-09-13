@@ -109,6 +109,9 @@ footer p img {
   vertical-align: middle;
 }
 
+footer p a:nth-child(3) {
+  float: right;
+}
 footer p a:nth-child(3)::after {
   content: none;
 }
