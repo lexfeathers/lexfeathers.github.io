@@ -91,6 +91,10 @@ footer {
   bottom: 0;
 }
 
+footer p {
+  width: 100%;
+}
+
 footer p a {
   margin: 0 1rem 0 0;
 }
