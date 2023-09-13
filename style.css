@@ -100,6 +100,12 @@ footer sub {
   margin-top: 1rem;
 }
 
+footer img {
+  display: inline-flex;
+  justify-self: flex-end;
+  align-self: center;
+}
+
 /* ------- General ------- */
 
 a {
