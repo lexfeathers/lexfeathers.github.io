@@ -46,12 +46,12 @@ section {
 
 section:target {
   /* Show section */
-  display: block;
+  display: flex;
 }
 
 section#home {
   /* Show #home by default */
-  display: block;
+  display: flex;
 }
 
 /* ------- Header and Footer ------- */
