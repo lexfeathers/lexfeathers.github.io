@@ -55,9 +55,14 @@ section#home {
 }
 
 article {
-  border-bottom: solid 1px var(--highlight);
-  padding: 1rem;
+  /* border-bottom: solid 1px var(--highlight); */
+  padding: 1.5rem;
   background-color: color-mix(in hSL, var(--textcolor) 12%, black);
+}
+
+/* Embeds */
+article iframe {
+  margin: 2rem 0;
 }
 
 /* ------- Header and Footer ------- */
