@@ -135,6 +135,12 @@ footer p a:nth-child(3)::after {
 
 /* ------- General ------- */
 
+iframe.bandcamp-embed {
+  border: 0;
+  width: 100%;
+  height: 700px;
+}
+
 a {
   text-decoration: none;
   color: var(--highlight);
