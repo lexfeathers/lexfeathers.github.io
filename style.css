@@ -60,6 +60,10 @@ article {
   background-color: color-mix(in hSL, var(--textcolor) 12%, black);
 }
 
+article:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
 /* Embeds */
 article iframe {
   margin: 2rem 0;
