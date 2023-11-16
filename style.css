@@ -78,6 +78,16 @@ article iframe {
   margin: 2rem 0;
 }
 
+#about img {
+  margin: 2rem 0;
+  filter: blur(4px);
+  opacity: 0.25;
+}
+
+#about h2 {
+  margin-bottom: 2rem;
+}
+
 /* ------- Header and Footer ------- */
 
 header {
