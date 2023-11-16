@@ -34,7 +34,7 @@ body {
 /* ------- Sections ------- */
 
 section {
-  padding: calc(6em + 5vw) 5vw 8vw 5vw;
+  padding: calc(6em + 5vw) 5vw 12vw 5vw;
   /* ! Everything below is needed ! */
   display: none;
   position: absolute;
