@@ -59,6 +59,10 @@ article {
   margin-top: 4.5rem;
   padding: 1.5rem;
   background-color: color-mix(in hSL, var(--textcolor) 12%, black);
+  background: linear-gradient(
+    color-mix(in hSL, var(--textcolor) 12%, black),
+    var(--bgcolor)
+  );
 }
 
 article:not(:first-child) {
