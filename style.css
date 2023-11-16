@@ -64,7 +64,7 @@ article:not(:first-child) {
   margin-top: 1.5rem;
 }
 
-article(:last-child) {
+article:last-child {
   margin-bottom: 4.5rem;
 }
 
