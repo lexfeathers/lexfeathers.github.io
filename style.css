@@ -54,9 +54,10 @@ section#home {
   display: block;
 }
 
-section#home article {
+article {
   border-bottom: solid 1px var(--highlight);
-  padding-bottom: 1rem;
+  padding: 1rem;
+  background-color: color-mix(in hSL, var(--textcolor) 12%, black);
 }
 
 /* ------- Header and Footer ------- */
