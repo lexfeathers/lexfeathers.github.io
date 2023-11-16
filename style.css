@@ -64,6 +64,10 @@ article:not(:first-child) {
   margin-top: 1.5rem;
 }
 
+article(:last-child) {
+  margin-bottom: 4.5rem;
+}
+
 /* Embeds */
 article iframe {
   margin: 2rem 0;
