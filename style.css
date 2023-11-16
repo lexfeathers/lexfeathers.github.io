@@ -54,6 +54,10 @@ section#home {
   display: block;
 }
 
+section#home article {
+  border: 1px solid var(--textcolor);
+}
+
 /* ------- Header and Footer ------- */
 
 header {
