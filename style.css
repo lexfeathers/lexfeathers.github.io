@@ -55,7 +55,8 @@ section#home {
 }
 
 section#home article {
-  border: 1px solid var(--textcolor);
+  border-bottom: solid 1px var(--highlight);
+  padding-bottom: 1rem;
 }
 
 /* ------- Header and Footer ------- */
@@ -145,7 +146,7 @@ p,
 ul,
 ol,
 article {
-  max-width: 60ch; /* Limit line-length to 60 characters */
+  /* max-width: 60ch; Limit line-length to 60 characters */
   margin-bottom: 0.6em;
 }
 
