@@ -79,7 +79,7 @@ article iframe {
 }
 
 #about img {
-  margin: 2rem 0;
+  margin: 4rem auto;
   filter: blur(4px);
   opacity: 0.25;
 }
