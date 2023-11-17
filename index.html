@@ -244,8 +244,8 @@
         //append the #home target to the root URL
         let url = window.location.href;
 
-        if (url.indexOf('voidfemmes.ca') > -1) {
-          url += '/#home';
+        if (url.indexOf('voidfemmes.ca') >= -1) {
+          url += '#home';
         }
         window.location.href = url;
       </script>
