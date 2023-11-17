@@ -49,10 +49,12 @@ section:target {
   display: block;
 }
 
+/* Show #home by default */
+/* 
 section#home {
-  /* Show #home by default */
   display: block;
-}
+} 
+*/
 
 article {
   /* border-bottom: solid 1px var(--highlight); */
