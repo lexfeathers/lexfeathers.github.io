@@ -246,6 +246,8 @@
 
         if (url.indexOf('voidfemmes.ca') >= -1) {
           url += '#home';
+        }else if (url.indexOf('voidfemmes.ca/#') >= -1) {
+          return;
         }
         window.location.href = url;
       </script>
