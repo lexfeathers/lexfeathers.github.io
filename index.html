@@ -242,14 +242,15 @@
 
       <script>
         //append the #home target to the root URL
-        let url = window.location.href;
+        // let url = window.location.hash;
 
-        if (url.indexOf('voidfemmes.ca') >= -1) {
-          url += '#home';
-        }else if (url.indexOf('voidfemmes.ca/#') >= -1) {
-          return;
-        }
-        window.location.href = url;
+        // if (url === undefined) {
+        //   url = '#home';
+        // }
+        // window.location.href += url;
+        if (window.location.hash.length < 1) {
+          window.location.hash = '#home';
+        } 
       </script>
   </body>
 </html>
