@@ -246,13 +246,17 @@
           window.location.hash = '#home';
         }
 
+        // Get a list of all pages
         const pages = document.getElementById("mainContent"); 
-        const pageList = [pages.querySelectorAll("section")];
+        const pageList = pages.querySelectorAll("section");
 
+        // Get page IDs
         function getIDs(elementInput) {
           return elementInput.id;
         }
-        // let pageListArr = Array.from(pageList.map(getIDs(pages)));
+        // Create an array of page IDs
+        let pageListArr = Array.from(pageList);
+        pageListArr.map(getIDs);
       </script>
   </body>
 </html>
