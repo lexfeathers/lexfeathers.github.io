@@ -242,15 +242,17 @@
 
       <script>
         //append the #home target to the root URL
-        // let url = window.location.hash;
-
-        // if (url === undefined) {
-        //   url = '#home';
-        // }
-        // window.location.href += url;
         if (window.location.hash.length < 1) {
           window.location.hash = '#home';
         }
+
+        const pages = document.getElementById("mainContent"); 
+        const pageList = [pages.querySelectorAll("section")];
+
+        function getIDs(elementInput) {
+          return elementInput.id;
+        }
+        // let pageListArr = Array.from(pageList.map(getIDs(pages)));
       </script>
   </body>
 </html>
