@@ -249,13 +249,14 @@
 
         //append the #home target to the root URL
         if (window.location.hash.length < 1) {
-          window.location.hash = '#home';
+          window.location.hash = 'home';
         }
 
         // Check current hash against list of valid ids
-        if (sectionNames.includes(window.location.hash.substring(1)) === false) {
+        if ( sectionNames.includes(window.location.hash.substring(1)) === false ) {
           // if current hash not in list, return user to homepage
-          window.location.hash = '#home';
+          window.location.hash = 'home';
+          console.log("this ran");
         }
       </script>
   </body>
