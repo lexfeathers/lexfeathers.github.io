@@ -18,17 +18,15 @@
     
   </head>
   <body>
-    
     <header>
       <h1>
-        <a href="#home">Void Femmes</a>
+        <a href="voidfemmes.ca">Void Femmes</a>
       </h1>
       <nav>
-        <!-- Hiding some menu items until there's stuff to show -->
-        <!-- <a href="#music">Music</a>         -->
-        <a href="#about">About</a>
-        <a href="#news">News</a>
-        <!-- <a href="#photos">Photos</a> -->
+        <!-- <a href="voidfemmes.ca/#music">Music</a>         -->
+        <a href="voidfemmes.ca/#about">About</a>
+        <a href="voidfemmes.ca/#news">News</a>
+        <!-- <a href="voidfemmes.ca/#photos">Photos</a> -->
       </nav>
     </header>
     
@@ -36,9 +34,8 @@
       
       <section id="home"> <!-- HOME -->
         <article>
-          <h2>404: Page not found</h2>
-
-          <!-- <p><a href="index.html">Click here to return home.</a></p> -->
+          <h1>404: Page not found</h1>
+          <p><a href="voidfemmes.ca">Click here to return home.</a></p>
         </article>
       </section>
       </section>
@@ -50,9 +47,6 @@
       <p>
         <a href="https://instagram.com/voidfemmes" target="_blank">instagram</a>
         <a href="https://voidfemmes.bandcamp.com" target="_blank">bandcamp</a>
-        <a href="https://queercomputerclub.ca" target="_blank">
-          <img src="/img/qcc_badge.png" alt="Queer Computer Club" title="Queer Computer Club"/>
-        </a>
       </p>
       <p><sub>© Void Femmes 2023</sub></p>
     </footer>
@@ -65,10 +59,10 @@
         const sectionNames = pageList.map(element => element.id);
 
         //append the #home target to the root URL
-        if (window.location.hash.length < 1) {
-          window.location.hash = 'home';
-          console.log("appending the home hash worked")
-        }
+        // if (window.location.hash.length < 1) {
+        //   window.location.hash = 'home';
+        //   console.log("appending the home hash worked")
+        // }
 
         // Check current hash against list of valid ids
         function locationHashChanged() {
