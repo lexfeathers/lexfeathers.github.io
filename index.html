@@ -246,7 +246,6 @@
         const pageList = [...pages.querySelectorAll("section")];
         // Get page element IDs from list
         const sectionNames = pageList.map(element => element.id);
-        let urlHash = window.location.hash;
 
         //append the #home target to the root URL
         if (window.location.hash.length < 1) {
@@ -254,7 +253,9 @@
         }
 
         // Check current hash against list of valid ids
-        
+        if (sectionNames.includes(window.location.hash.substring(1)) == false) {
+          window.location.hash = '#home';
+        }
       </script>
   </body>
 </html>
