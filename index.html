@@ -241,22 +241,20 @@
       <a href="#about" class="lightbox" id="img-about"><img loading="lazy" alt="" src="//dummyimage.com/2400x1200/ddd/bbb"></a>
 
       <script>
+        // Get a list of all pages
+        const pages = document.getElementById("mainContent"); 
+        const pageList = [...pages.querySelectorAll("section")];
+        // Get page element IDs from list
+        const sectionNames = pageList.map(element => element.id);
+        let urlHash = window.location.hash;
+
         //append the #home target to the root URL
         if (window.location.hash.length < 1) {
           window.location.hash = '#home';
         }
 
-        // Get a list of all pages
-        const pages = document.getElementById("mainContent"); 
-        const pageList = pages.querySelectorAll("section");
-
-        // Get page IDs
-        function getIDs(elementInput) {
-          return elementInput.id;
-        }
-        // Create an array of page IDs
-        let pageListArr = Array.from(pageList);
-        pageListArr.map(getIDs);
+        // Check current hash against list of valid ids
+        
       </script>
   </body>
 </html>
