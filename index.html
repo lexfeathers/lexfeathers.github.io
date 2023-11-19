@@ -244,20 +244,25 @@
         // Get a list of all pages
         const pages = document.getElementById("mainContent"); 
         const pageList = [...pages.querySelectorAll("section")];
+        
         // Get page element IDs from list
         const sectionNames = pageList.map(element => element.id);
 
         //append the #home target to the root URL
         if (window.location.hash.length < 1) {
           window.location.hash = 'home';
+          console.log("appending the home hash worked")
         }
 
         // Check current hash against list of valid ids
-        if ( sectionNames.includes(window.location.hash.substring(1)) === false ) {
-          // if current hash not in list, return user to homepage
-          window.location.hash = 'home';
-          console.log("this ran");
+        function locationHashChanged() {
+          if (!sectionNames.includes(window.location.hash.substring(1))) {
+            // if current hash not in list, return user to homepage
+            window.location.hash = 'home';
+            console.log("hash error correction ran");
+          }
         }
+        window.onhashchange = locationHashChanged;
       </script>
   </body>
 </html>
