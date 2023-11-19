@@ -253,9 +253,8 @@
         }
 
         // Check current hash against list of valid ids
-        if (sectionNames.includes(window.location.hash.substring(1)) == false) {
+        if (sectionNames.includes(window.location.hash.substring(1)) === false) {
           window.location.hash = '#home';
-          console.log("this ran");
         }
       </script>
   </body>
