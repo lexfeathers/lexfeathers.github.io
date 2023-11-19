@@ -254,6 +254,7 @@
 
         // Check current hash against list of valid ids
         if (sectionNames.includes(window.location.hash.substring(1)) === false) {
+          // if current hash not in list, return user to homepage
           window.location.hash = '#home';
         }
       </script>
