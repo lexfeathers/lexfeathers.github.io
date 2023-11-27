@@ -20,6 +20,10 @@
   }
 }
 
+.page-width {
+  max-width: 64em;
+}
+
 body {
   font-size: 18px;
   font-family: monospace, sans-serif;
@@ -27,7 +31,7 @@ body {
   color: var(--textcolor);
   background: var(--bgcolor);
   position: relative;
-  max-width: 64em; /* remove this for a full-width layout */
+  /* max-width: 64em; remove this for a full-width layout */
   margin: 0 auto; /* centers the layout */
 }
 
