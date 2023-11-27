@@ -135,6 +135,10 @@ footer p {
   width: 100%;
 }
 
+#footer-badge {
+  float: right;
+}
+
 footer p a {
   margin: 0 1rem 0 0;
 }
